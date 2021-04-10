@@ -20,7 +20,7 @@ def enter_password(pw_browser):
 
 
     
-#def login(login_browser):
+def login(login_browser):
     login_button = login_browser.find_elements_by_xpath("//input[@type='submit' and @value='Login']")[0]
     login_button.click()
     print('Logged in')
