@@ -42,7 +42,7 @@ def get_table_html(table_browser,force_exception):
 
 
 
-#def create_data_frame(table_html):
+def create_data_frame(table_html):
     webtable_df = pd.read_html(table_html)[0]
     print(table_html)
     print('Created dataframe')
