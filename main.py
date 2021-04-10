@@ -4,14 +4,14 @@ import pandas as pd
 import time
 
 
-#def enter_username(user_browser):
+def enter_username(user_browser):
     username = user_browser.find_element_by_id("username") # will throw exception if not found
     username.clear() #clear username in event there is prepopulated data
     username.send_keys("test") #send username
     print('Entered username')
 
 
-#def enter_password(pw_browser):
+def enter_password(pw_browser):
     password = pw_browser.find_element_by_id("password")
     password.clear() #clear password in event there is prepopulated data
     password.send_keys("test")  #send password  
