@@ -50,7 +50,7 @@ def create_data_frame(table_html):
 
 
 
-#def save_to_csv(data_frame):
+def save_to_csv(data_frame):
     data_frame.to_csv(r'C:\Users\csdj9\OneDrive\Desktop\Data1.csv')
     print(data_frame)
     print('saved data')
