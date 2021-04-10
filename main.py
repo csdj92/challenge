@@ -26,7 +26,7 @@ def login(login_browser):
     print('Logged in')
 
 
-#def get_table_html(table_browser,force_exception):
+def get_table_html(table_browser,force_exception):
     print('forcing exception', force_exception)
     if force_exception:
         tables = table_browser.find_elements_by_id('the_table') #Should throw an exception
