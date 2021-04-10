@@ -56,7 +56,7 @@ def save_to_csv(data_frame):
     print('saved data')
 
 
-#def download_data(data_browser,force_exception):
+def download_data(data_browser,force_exception):
     data_browser.get("http://www.montmere.com/test.php")
     enter_username(data_browser)
     enter_password(data_browser)
