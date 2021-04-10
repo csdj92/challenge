@@ -67,7 +67,7 @@ def download_data(data_browser,force_exception):
     save_to_csv(webtable_df)
 
 
-browser = webdriver.Chrome() #start Chrome 
+browser = webdriver.Chrome() #start Chrome a
 
 try:
     download_data(browser,True)
